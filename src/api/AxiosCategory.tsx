@@ -9,7 +9,6 @@ interface Product {
     category_id: number;
     price: number;
     explanation: string;
-    image_url: string; // Ensure you have this property in your product data
 }
 
 interface Category {
@@ -103,10 +102,10 @@ export default function AxiosCategory() {
                     <ul className="product-list">
                         {filteredProducts.map((product) => (
                             <li key={product.id} className="product-item">
-                                <img src={product.image_url} alt={product.name} />
+                                <img src="../assets/image/image 1.png" alt={product.name} />
                                 <div>
-                                    <p>{product.name}</p>
-                                    <p>{product.price} TL</p>
+                                    <p className="text">{product.name}</p>
+                                    <p className="text">{product.price} TL</p>
                                     <button className="add-to-cart-button">
                                         <FaShoppingCart /> Sepete Ekle
                                     </button>

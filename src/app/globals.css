@@ -65,11 +65,19 @@ body{
 }
 .product-item {
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 20px;
   padding: 1rem;
   background: white;
-  width: 200px;
+  width: 217px;
+  height: 319px;
+  top: 104px;
   text-align: center;
+}
+.text{
+  width: 111px;
+  height: 40px;
+  top: 321px;
+  left: 269px;
 }
 .product-item img {
   max-width: 100%;
@@ -87,11 +95,10 @@ body{
 }
 .add-to-cart-button {
   background-color: #265073;
-  ;
   color: white;
   border: none;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 20px;
   cursor: pointer;
   display: flex;
   align-items: center;
